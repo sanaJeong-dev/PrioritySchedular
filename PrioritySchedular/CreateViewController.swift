@@ -20,7 +20,7 @@ class CreateViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
-    
+    //아래 삭제
     //Did End on Exit (안됨)
     @IBAction func dateInserted2(_ sender: UITextField) {
         guard let textUnwrapped = sender.text else { return print("날짜 입력 안 됨") }
@@ -37,6 +37,7 @@ class CreateViewController: UIViewController {
 //        let year = textUnwrapped[..<4]
 //        let month = textUnwrapped[4..<6]
 //        let day =
+        
     }
 }
 
